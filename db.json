@@ -6,7 +6,7 @@
       "description": "Como Scrum Master, quiero visualizar las User Stories en el timeline, para seguir el progreso del equipo y gestionar mejor las tareas.",
       "owner": "Scrum Master",
       "status": "To do",
-      "sprint": 1,
+      "sprint": null,
       "startDate": "2024-10-01",
       "endDate": "2024-10-02",
       "effort": 5
