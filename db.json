@@ -32,83 +32,53 @@
       "startDate": "2024-10-11",
       "endDate": "2024-10-15",
       "effort": 4
+    }
+  ],
+  "epics": [
+    {
+      "id": 1,
+      "title": "Epic de Gestión de Proyectos",
+      "project_id": 1,
+      "description": "Una épica que abarca todas las funcionalidades clave de la gestión de proyectos.",
+      "status": "In Progress",
+      "creationDate": "2024-09-20"
     },
     {
-      "id": 4,
-      "title": "Visualización de Estadísticas del Rendimiento del Equipo",
-      "description": "Como Product Owner, quiero visualizar estadísticas del rendimiento del equipo, para evaluar el progreso de las User Stories y tomar decisiones informadas sobre la gestión del proyecto.",
-      "owner": "Product Owner",
+      "id": 2,
+      "title": "Epic de Optimización del Sistema",
+      "project_id": 2,
+      "description": "Una épica que cubre todas las tareas relacionadas con la optimización del sistema.",
       "status": "Complete",
-      "sprint": 2,
-      "startDate": "2024-10-16",
-      "endDate": "2024-10-20",
-      "effort": 6
-    },
+      "creationDate": "2024-09-25"
+    }
+  ],
+  "tasks": [
     {
-      "id": 5,
-      "title": "Integración de un sistema de notificaciones",
-      "description": "Como Desarrollador, quiero integrar un sistema de notificaciones para informar a los usuarios sobre cambios en las User Stories.",
-      "owner": "Developer",
-      "status": "Complete",
-      "sprint": 2,
-      "startDate": "2024-10-21",
-      "endDate": "2024-10-25",
-      "effort": 5
-    },
-    {
-      "id": 6,
-      "title": "Optimización del rendimiento de la aplicación",
-      "description": "Como Product Owner, quiero optimizar el rendimiento de la aplicación para mejorar la experiencia del usuario.",
-      "owner": "Product Owner",
+      "id": 1,
+      "title": "Crear funcionalidad de arrastrar y soltar",
+      "description": "Desarrollar una función que permita a los usuarios arrastrar y soltar tareas en el timeline.",
       "status": "To do",
-      "sprint": 3,
-      "startDate": "2024-10-26",
-      "endDate": "2024-10-30",
-      "effort": 7
+      "creationDate": "2024-10-10",
+      "userStory_id": 1,
+      "sprint": 1
     },
     {
-      "id": 7,
-      "title": "Implementación de la funcionalidad de búsqueda",
-      "description": "Como Scrum Master, quiero implementar la funcionalidad de búsqueda para que los usuarios encuentren rápidamente las User Stories.",
-      "owner": "Scrum Master",
+      "id": 2,
+      "title": "Optimización de rendimiento de la base de datos",
+      "description": "Mejorar la eficiencia en las consultas a la base de datos.",
+      "status": "In Progress",
+      "creationDate": "2024-10-12",
+      "userStory_id": 3,
+      "sprint": 2
+    },
+    {
+      "id": 3,
+      "title": "Implementación de notificaciones en tiempo real",
+      "description": "Agregar notificaciones para cambios en User Stories.",
       "status": "Complete",
-      "sprint": 3,
-      "startDate": "2024-10-31",
-      "endDate": "2024-11-05",
-      "effort": 4
-    },
-    {
-      "id": 8,
-      "title": "Creación de una interfaz de usuario amigable",
-      "description": "Como Desarrollador, quiero crear una interfaz de usuario amigable para mejorar la experiencia del usuario.",
-      "owner": "Developer",
-      "status": "To do",
-      "sprint": 4,
-      "startDate": "2024-11-06",
-      "endDate": "2024-11-10",
-      "effort": 6
-    },
-    {
-      "id": 9,
-      "title": "Implementación de la funcionalidad de arrastrar y soltar",
-      "description": "Como Product Owner, quiero implementar la funcionalidad de arrastrar y soltar para que los usuarios puedan organizar las User Stories fácilmente.",
-      "owner": "Product Owner",
-      "status": "Complete",
-      "sprint": 4,
-      "startDate": "2024-11-11",
-      "endDate": "2024-11-15",
-      "effort": 5
-    },
-    {
-      "id": 10,
-      "title": "Añadir soporte para múltiples idiomas",
-      "description": "Como Desarrollador, quiero añadir soporte para múltiples idiomas en la aplicación.",
-      "owner": "Developer",
-      "status": "To do",
-      "sprint": 4,
-      "startDate": "2024-11-16",
-      "endDate": "2024-11-20",
-      "effort": 3
+      "creationDate": "2024-10-14",
+      "userStory_id": 5,
+      "sprint": 2
     }
   ],
   "members": [
@@ -129,24 +99,6 @@
       "name": "Ana Martínez",
       "role": "Product Owner",
       "status": "Inactivo"
-    },
-    {
-      "id": 4,
-      "name": "Luis Rodríguez",
-      "role": "Tester",
-      "status": "Activo"
-    },
-    {
-      "id": 5,
-      "name": "Laura Fernández",
-      "role": "Desarrollador",
-      "status": "Activo"
-    },
-    {
-      "id": 6,
-      "name": "Carlos Ramírez",
-      "role": "Desarrollador",
-      "status": "Activo"
     }
   ]
 }
