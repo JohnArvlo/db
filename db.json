@@ -32,6 +32,61 @@
       "startDate": "2024-10-11",
       "endDate": "2024-10-15",
       "effort": 4
+    },
+    {
+      "id": 4,
+      "title": "Mejorar la Interfaz de Usuario",
+      "description": "Como Diseñador, quiero mejorar la interfaz de usuario de la aplicación, para facilitar la navegación y la usabilidad.",
+      "owner": "UI/UX Designer",
+      "status": "In Progress",
+      "sprint": null,
+      "startDate": "2024-10-10",
+      "endDate": "2024-10-15",
+      "effort": 6
+    },
+    {
+      "id": 5,
+      "title": "Integración de API de terceros",
+      "description": "Como Desarrollador, quiero integrar una API de terceros, para enriquecer las funcionalidades de la aplicación.",
+      "owner": "Developer",
+      "status": "To do",
+      "sprint": 3,
+      "startDate": "2024-10-15",
+      "endDate": "2024-10-20",
+      "effort": 8
+    },
+    {
+      "id": 6,
+      "title": "Automatización de Pruebas",
+      "description": "Como QA, quiero automatizar las pruebas de la aplicación, para asegurar la calidad y reducir el tiempo de entrega.",
+      "owner": "Quality Assurance",
+      "status": "To do",
+      "sprint": 1,
+      "startDate": "2024-10-16",
+      "endDate": "2024-10-22",
+      "effort": 5
+    },
+    {
+      "id": 7,
+      "title": "Documentación del Proyecto",
+      "description": "Como miembro del equipo, quiero tener una documentación clara del proyecto, para facilitar la incorporación de nuevos miembros.",
+      "owner": "Project Manager",
+      "status": "Complete",
+      "sprint": 2,
+      "startDate": "2024-10-05",
+      "endDate": "2024-10-10",
+      "effort": 3
+    },
+    {
+      "id": 8,
+      "title": "Capacitación del Equipo",
+      "description": "Como Scrum Master, quiero capacitar al equipo en nuevas tecnologías, para mejorar nuestras competencias y herramientas.",
+      "owner": "Scrum Master",
+      "status": "In Progress",
+      "sprint": 3,
+      "startDate": "2024-10-18",
+      "endDate": "2024-10-25",
+      "effort": 4
     }
   ],
   "epics": [
@@ -50,6 +105,30 @@
       "description": "Una épica que cubre todas las tareas relacionadas con la optimización del sistema.",
       "status": "Complete",
       "creationDate": "2024-09-25"
+    },
+    {
+      "id": 3,
+      "title": "Epic de Mejora de la Experiencia del Usuario",
+      "project_id": 1,
+      "description": "Una épica que se centra en mejorar la experiencia del usuario a través de nuevas características.",
+      "status": "In Progress",
+      "creationDate": "2024-10-01"
+    },
+    {
+      "id": 4,
+      "title": "Epic de Capacitación y Desarrollo del Equipo",
+      "project_id": 2,
+      "description": "Una épica dedicada a la capacitación del equipo en nuevas tecnologías y metodologías ágiles.",
+      "status": "Planned",
+      "creationDate": "2024-10-05"
+    },
+    {
+      "id": 5,
+      "title": "Epic de Automatización y Eficiencia",
+      "project_id": 3,
+      "description": "Una épica que aborda la automatización de procesos y la mejora de la eficiencia operativa.",
+      "status": "In Progress",
+      "creationDate": "2024-10-10"
     }
   ],
   "tasks": [
@@ -77,8 +156,53 @@
       "description": "Agregar notificaciones para cambios en User Stories.",
       "status": "Complete",
       "creationDate": "2024-10-14",
-      "userStory_id": 5,
+      "userStory_id": 6,
       "sprint": 2
+    },
+    {
+      "id": 4,
+      "title": "Revisión de Código",
+      "description": "Realizar una revisión del código desarrollado para garantizar la calidad.",
+      "status": "In Progress",
+      "creationDate": "2024-10-15",
+      "userStory_id": 5,
+      "sprint": 3
+    },
+    {
+      "id": 5,
+      "title": "Configuración de Entorno de Desarrollo",
+      "description": "Configurar el entorno de desarrollo para nuevos miembros del equipo.",
+      "status": "To do",
+      "creationDate": "2024-10-16",
+      "userStory_id": 4,
+      "sprint": 1
+    },
+    {
+      "id": 6,
+      "title": "Desarrollo de la API",
+      "description": "Crear una API que soporte la aplicación móvil y web.",
+      "status": "In Progress",
+      "creationDate": "2024-10-17",
+      "userStory_id": 3,
+      "sprint": 2
+    },
+    {
+      "id": 7,
+      "title": "Documentar el Proceso de Desarrollo",
+      "description": "Escribir documentación sobre el proceso de desarrollo y las decisiones tomadas.",
+      "status": "To do",
+      "creationDate": "2024-10-18",
+      "userStory_id": 8,
+      "sprint": 3
+    },
+    {
+      "id": 8,
+      "title": "Despliegue en Producción",
+      "description": "Desplegar la aplicación en el entorno de producción.",
+      "status": "Complete",
+      "creationDate": "2024-10-19",
+      "userStory_id": 7,
+      "sprint": 1
     }
   ],
   "members": [
@@ -96,9 +220,45 @@
     },
     {
       "id": 3,
-      "name": "Ana Martínez",
-      "role": "Product Owner",
+      "name": "Carlos Fernández",
+      "role": "QA",
       "status": "Inactivo"
+    },
+    {
+      "id": 4,
+      "name": "Lucía Martínez",
+      "role": "Product Owner",
+      "status": "Activo"
+    },
+    {
+      "id": 5,
+      "name": "Pedro Torres",
+      "role": "UI/UX Designer",
+      "status": "Activo"
+    },
+    {
+      "id": 6,
+      "name": "Ana Sánchez",
+      "role": "Desarrollador",
+      "status": "Activo"
+    },
+    {
+      "id": 7,
+      "name": "Diego Ruiz",
+      "role": "Desarrollador",
+      "status": "Inactivo"
+    },
+    {
+      "id": 8,
+      "name": "Elena Castro",
+      "role": "QA",
+      "status": "Activo"
+    },
+    {
+      "id": 9,
+      "name": "Sofía López",
+      "role": "Project Manager",
+      "status": "Activo"
     }
   ]
 }
